@@ -1,0 +1,13 @@
+<!-- Research and Development page                      -->
+<!-- For putting random shit together and learning HTML -->
+
+<!-- Image -->
+<img src="static/images/R&D.png" alt="R&D" height="100" title="R&D page for Fatnet">
+
+<!-- Abbreviations -->
+<p>This is a test <abbr title="yea">And this is another</abbr>. Yeah.</p>
+<p>test</p>
+
+<!-- Border stuff -->
+<h1 style="border:2px solid Gray;">This is a border test</h1>
+

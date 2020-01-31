@@ -2,12 +2,20 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
+
+  <!-- select the page title (or leave it as "EMPTY") -->
   <title><%= page_title or "EMPTY" %></title>
+
+  <!-- link the main stylesheet -->
+  <link rel="stylesheet" href="static/styles/main.css">
  </head>
 
  <body>
+  <!-- render the header -->
   <% render("views.layout.header") %>
+  <!-- render page contents -->
   <% content_for("inner") %>
+  <!-- render the footer -->
   <% render("views.layout.footer") %>
  </body>
 </html>

@@ -26,6 +26,13 @@ app:match("TODO", "/todo", respond_to({
   end
 }))
 
+app:match("testing_grounds", "/testing_grounds", respond_to({
+  GET = function(self)
+    self.page_title = "The testing Grounds"
+    return {render = "testing_grounds"}
+  end
+}))
+
 --[[
   HANDLE 404 ERRORS WHEN THERE THE PAGE DOESN'T EXIST
 ]]
