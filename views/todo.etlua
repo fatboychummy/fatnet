@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <h2>Some things I wish to add to this</h2>
 
 <ol>
@@ -6,5 +7,5 @@
   <li>Figure out what pages I want to add</li>
   <li>FTP?</li>
   <li>User system of some sort</li>
-  <li>Github Integration</li>
+  <li><strike>Github Integration</strike></li>
 </ol>
