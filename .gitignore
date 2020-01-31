@@ -1,0 +1,9 @@
+*.lua~
+fastcgi_temp
+logs
+client_body_temp
+mime.types
+proxy_temp
+scgi_temp
+uwsgi_temp
+nginx.conf.compiled

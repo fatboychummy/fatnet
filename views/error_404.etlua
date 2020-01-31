@@ -1,0 +1,2 @@
+<h1>Failed to find the page '<%= req.cmd_url %>'</h1>
+<a href="<%= url_for('index') %>">Return home</a>

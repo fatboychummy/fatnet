@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title><%= page_title or "EMPTY" %></title>
+ </head>
+
+ <body>
+  <% render("views.layout.header") %>
+  <% content_for("inner") %>
+  <% render("views.layout.footer") %>
+ </body>
+</html>

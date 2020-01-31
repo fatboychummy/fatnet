@@ -1,0 +1,6 @@
+<h1>Hello World</h1>
+<p>Welcome to my page</p>
+<p>There are a few pages I'm working on here...<p>
+<ul>
+  <li><a href="<%= url_for('TODO') %>">TODOs</a></li>
+</ul>
